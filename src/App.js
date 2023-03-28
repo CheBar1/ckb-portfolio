@@ -30,13 +30,13 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <>
+    <div className="app-container">
       {/* Passing the currentPage from state and the function to update it */}
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Calling the renderPage method which will return a component  */}
       {renderPage()}
       <Footer />
-    </>
+    </div>
   );
 }
 
