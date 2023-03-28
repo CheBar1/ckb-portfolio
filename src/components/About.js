@@ -11,11 +11,11 @@ const About = () => {
   // Expressions in JSX should be placed in curly braces {}
   return (
     <section className="container">
-      <h2 class="top-title">Hi! I'm Cheryl - your next web developer!</h2>
+      <h2 className="top-title">Hi! I'm Cheryl - your next web developer!</h2>
       <hr></hr>
       <div>
         <img
-          class="mb-5"
+          className="mb-5"
           id="aboutProfilePic"
           src={AboutProfilePic}
           alt="Cheryl Barclay"

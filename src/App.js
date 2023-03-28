@@ -1,5 +1,5 @@
 import React, { useState } from "react";
- 
+import './index.css';
 // The components need to be imported from the components folder to the App.js file
 import Header from "./components/Header";
 import Footer from "./components/Footer";

@@ -4,14 +4,14 @@ import "../index.css";
 
 const Header = ({ currentPage, handlePageChange }) => {
   return (
-    <container className="header-container">
+    <div className="header-container">
       <header>
         <Navigation
           currentPage={currentPage}
           handlePageChange={handlePageChange}
         />
       </header>
-    </container>
+    </div>
   );
 };
 
