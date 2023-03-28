@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../index.css";
+import "../components/Navigation.css";
+/* By importing the Navigation.css file, it is added to the DOM whenever this component loads */
 
 const Navigation = ({ currentPage, handlePageChange }) => {
   const [toggleMenu, setToggleMenu] = useState(false);

@@ -1,5 +1,8 @@
 import React from "react";
 import "../index.css";
+import "../components/Footer.css";
+/* By importing the Footer.css file, it is added to the DOM whenever this component loads */
+
 // Use rafce as shortcut to create React arrow export function
 
 const Footer = () => {

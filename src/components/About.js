@@ -1,6 +1,8 @@
 import React from "react";
 import AboutProfilePic from "../assets/aboutProfilePic.png";
 import "../index.css";
+import "../components/About.css";
+/* By importing the Footer.css file, it is added to the DOM whenever this component loads */
 
 // React components are isolated parts of an application that help organize and isolate different parts of the program into smaller chunks
 // We can pass data to these components and even render other components inside other components.

@@ -36,139 +36,21 @@ img:hover {
   transform: scale(1.2);
 }
 
-/* Navigation Bar Styling */
+  /* Responsiveness */
 
-.header {
-  position: fixed;
-  top: 0;
-  padding: 3rem;
-  width: 100%;
-  height: 3rem;
-  background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
-  color: aliceblue;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  align-items: center;
-}
-
-.navtabs {
-  list-style-type: none;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.nav-item {
-  margin-right: 20px;
-  text-transform: uppercase;
-}
-
-.btn {
-  display: none;
-  position: absolute;
-  right: 10px;
-  top: 7px;
-  padding: 5px;
-  font-size: 1rem;
-  border-radius: 10%;
-  cursor: pointer;
-}
-
-/* Footer Styling */
-.footer-container {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 3.5rem; 
-  background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
-  color: aliceblue;
-}
-
-.footer {
-  display: flex;
-  height: 3rem;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer a{
-  padding: 0 1rem;
-}
-
-/* About Page Styling */
-
-.about-container {
-  padding: 4rem;
-  width: auto;
-  height: 70vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  color: midnightblue;
-  font-size: 1.8rem;
-}
-
-.about-img {
-  border-radius: 50%;
-}
-
-.about-p {
-  font-family: 'Times New Roman', Times, serif;
-  text-align: center;
-  line-height: 1.2em;
-}
-
-
-/* Responsiveness */
-@media screen and (max-width:1046px) {
+  @media screen and (max-width:1046px) {
   
-}
+  }
+  
+  @media screen and (max-width: 780px) {
+    
+    a:hover {
+      color: rgb(248, 173, 247);
+      font-size: 1.5rem;
+    }
 
-@media screen and (max-width: 780px) {
-  .header {
-    flex-direction: column;
-    height: auto;
+    img:hover {
+      transform: none;
+    }
+ 
   }
-
-  .footer {
-    display: none;
-    visibility: hidden;
-  }
-
-  a:hover {
-    color: rgb(248, 173, 247);
-    font-size: 1.5rem;
-  }
-
-  img:hover {
-    transform: none;
-  }
-
-  .navtabs {
-    flex-direction: column;
-    height: auto;
-  }
-  .nav-item:nth-child(1) {
-    border-top: 1px solid rgba(255, 255, 255, 0.555);
-    margin-top: 1rem;
-  }
-  .nav-item {
-    width: 100%;
-    border-top: 1px solid rgba(255, 255, 255, 0.555);
-    text-align: start;
-    margin-right: 0px;
-    padding: 20px 0;
-  }
-  .btn {
-    display: block;
-  }
-
-  .about-container {
-    padding: .5rem;
-    max-width: 95%;
-  }
-}
