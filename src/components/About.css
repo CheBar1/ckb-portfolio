@@ -1,33 +1,35 @@
 /* About Page Styling */
 .about-container {
-    padding: 4rem;
-    width: auto;
-    height: 70vh;
+    padding: 1rem;
+    margin: 0 auto;
+    min-height: 300px;
+    max-width: 80rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     color: midnightblue;
     font-size: 1.8rem;
   }
+
+  .about-title {
+    padding: 2rem;
+  }
   
   .about-img {
+    padding: 2rem;
     border-radius: 50%;
+    width: 25rem;
+     
+ 
   }
   
   .about-p {
+    padding: 2rem 0;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     line-height: 1.2em;
   }
 
-  @media screen and (max-width: 780px) {
-    
-    .about-container {
-      padding: .5rem;
-      max-width: 95%;
-    }
 
-  }
 
   

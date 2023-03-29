@@ -1,5 +1,5 @@
 import React from "react";
-import AboutProfilePic from "../assets/aboutProfilePic.png";
+import AboutProfilePic from "../assets/aboutPic.png";
 import "../index.css";
 import "../components/About.css";
 /* By importing the Footer.css file, it is added to the DOM whenever this component loads */
