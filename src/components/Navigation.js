@@ -26,7 +26,7 @@ const Navigation = ({ currentPage, handlePageChange }) => {
   return (
     <div className="header-container">
       <div className="header">
-        <h1 className="navtitle">Cheryl Barclay</h1>
+        <h1 className="navtitle">CHERYL BARCLAY</h1>
         <nav className="navbar">
           {(toggleMenu || screenWidth > 780) && (
             <ul className="navtabs">

@@ -1,0 +1,21 @@
+.portfolio-container {
+    padding: 2rem;
+    background-color: rgb(237, 231, 241);
+  }
+
+.portfolio-top-title {
+    font-size: 3rem;
+    color: midnightblue;
+    text-align: center;
+}
+
+#portfolio-card-data {
+    padding-top: 50px;
+    justify-content: space-around;
+    height: 100%;
+    display: flex;
+    overflow: auto;
+    flex-flow: row wrap;
+    padding: 10px;
+    align-content: flex-start;
+  }

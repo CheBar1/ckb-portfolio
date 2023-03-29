@@ -1,14 +1,16 @@
 import React from "react";
 import Project from "./Project";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "../index.css";
+import "../components/Portfolio.css";
+/* By importing the Portfolio.css file, it is added to the DOM whenever this component loads */
 
-import textEditor from "./../assets/images/textEditor.png";
-import socialNetworkApi from "./../assets/images/socialNetworkApi.png";
-import techBlog from "./../assets/images/techBlog.png";
-import employeeTracker from "./../assets/images/employeeTracker.png";
-import teamProfileGenerator from "./../assets/images/teamProfileGenerator.png";
-import workDayScheduler from "./../assets/images/workDayScheduler.png";
-import musicBook from "./../assets/images/musicBook.png";
+import textEditor from "./../assets/textEditor.png";
+import socialNetworkApi from "./../assets/socialNetworkApi.png";
+import techBlog from "./../assets/techBlog.png";
+import employeeTracker from "./../assets/employeeTracker.png";
+import teamProfileGenerator from "./../assets/teamProfileGenerator.png";
+import workDayScheduler from "./../assets/workDayScheduler.png";
+import musicBook from "./../assets/musicBook.png";
 
 const projects = [
   {
@@ -69,14 +71,14 @@ const projects = [
 
 function Portfolio() {
   return (
-    <section className="container">
+    <section className="portfolio-container">
        
-      <div className="project">
-        <h2 className="top-title">Portfolio</h2>
+      <div className="portfolio-project">
+        <h2 className="portfolio-top-title">PORTFOLIO</h2>
         <hr></hr>
         </div>
 
-        <section id="card-data">
+        <section id="portfolio-card-data">
         {projects.map((project) => (
           <Project
             title={project.title}

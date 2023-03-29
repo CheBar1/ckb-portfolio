@@ -1,16 +1,18 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "../index.css";
+import "../components/Project.css";
+/* By importing the Project.css file, it is added to the DOM whenever this component loads */
 
 function Project({ title, description, deployedLink, githubLink, image }) {
 // The Project function accepts the props of title, description, etc passed from the Portfolio Component.
   return (
-    <div className="card">
-      <div className="img-container">
+    <div className="project-card">
+      <div className="project-img-container">
         <img alt={title} src={image} />
       </div>
 
-      <div className="content">
-        <p className="card-title">{title}</p>
+      <div className="project-content">
+        <p className="project-card-title">{title}</p>
         <p class="proj-icons-container">
           <a href={githubLink}>
             <img
@@ -29,7 +31,6 @@ function Project({ title, description, deployedLink, githubLink, image }) {
         </p>
         <p class="topics">{description}</p>
       </div>
-      <h4 className="center">{title}</h4>
     </div>
   );
 }
