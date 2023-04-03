@@ -15,7 +15,8 @@ import musicBook from "./../assets/musicBook.png";
 const projects = [
   {
     title: "Music Book",
-    description: "MERN Stack, MongoDB, GraphQL,JavaScript, React, Apollo Server Express",
+    description:
+      "MERN Stack, MongoDB, GraphQL,JavaScript, React, Apollo Server Express",
     deployedLink: "https://dry-wildwood-53100.herokuapp.com/",
     githubLink: "https://github.com/CheBar1/music-book ",
     image: musicBook,
@@ -30,8 +31,7 @@ const projects = [
   },
   {
     title: "Social Network API",
-    description:
-      "JavaScript, Node.js, Express.js, MongoDB, Mongoose, Moment",
+    description: "JavaScript, Node.js, Express.js, MongoDB, Mongoose, Moment",
     deployedLink:
       "https://drive.google.com/file/d/1QFEJ4rg9yn1scgb3ct0I9HJVaRfbJNXd/view",
     githubLink: "https://github.com/CheBar1/social-network-api",
@@ -72,13 +72,12 @@ const projects = [
 function Portfolio() {
   return (
     <section className="portfolio-container">
-       
       <div className="portfolio-project">
         <h2 className="portfolio-top-title">PORTFOLIO</h2>
         <hr></hr>
-        </div>
+      </div>
 
-        <section id="portfolio-card-data">
+      <section id="portfolio-card-data">
         {projects.map((project) => (
           <Project
             title={project.title}
