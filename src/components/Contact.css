@@ -18,7 +18,7 @@
     padding: 2rem;
     font-size: 1.5rem;
     min-height: 30rem;
-    max-width: 40rem;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,10 +27,14 @@
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
+.field {
+    display: flex;    
+}
+
 form input, form textarea {
     border: 2rem;
     margin: 10px 0;
-    max-width: 35rem;
+    width: 60vw;
     padding: 2rem;
     outline: none;
     font-size: 1.5rem;
@@ -46,7 +50,7 @@ form input, form textarea {
     border: 0;
     outline: none;
     cursor: pointer;
-    max-width: 150px;
+    width: 15rem;
     margin: 20px auto 0;
     border-radius: 15px;
 }
@@ -55,7 +59,7 @@ form input, form textarea {
     margin-top: 3rem;
     padding: 2rem;
     font-size: 2rem;
-    max-width: 30rem;   
+    width: 30rem;   
     background: rgb(213, 197, 209);
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
